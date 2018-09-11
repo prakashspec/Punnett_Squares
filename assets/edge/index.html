@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=924, height=630"/>
+	<title>Punnett Squares</title>
+	<link href="edgeStyle.css" style="text/css" rel="stylesheet"/>	
+	<link href="wactivity.css" style="text/css" rel="stylesheet"/>	
+    <link href="../css/font.css" rel="stylesheet"/>
+	<script type='text/javascript' src='dataEdge.js'></script>
+	
+<!--Adobe Edge Runtime-->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <script type="text/javascript" charset="utf-8" src="index_edgePreload.js"></script>
+    <style>
+        .edgeLoad-EDGE-1817669 { visibility:hidden; }
+    </style>
+<!--Adobe Edge Runtime End-->
+
+</head>
+<body style="margin:0;padding:0;">
+	<div id="Stage" class="EDGE-1817669">
+	 <div class="chheader1 btn edgeLoad-EDGE-1817669" id="bnt_1">Making Crosses</div>
+         <div class="chheader2Act btn edgeLoad-EDGE-1817669" id="bnt_2">Punnett Puzzles</div>
+            <!-- <img class="exp_bg" src="assets/images/activity/img.PNG"/> -->
+            <div class="organism">
+			<div class="radio_hide"></div>
+               <div class="radioBtn">
+                  <div class="orgtitle">Organism</div>
+                  <div class="radiodiv" id="radiodiv1"><input type="radio" id="opt_0" class="option" name="organism" value="Pea Plants"><span>Pea plants</span></div>
+                  <div class="radiodiv" id="radiodiv2"><input type="radio" id="opt_1" class="option" name="organism" value="Sunflowers" ><span>Sunflowers</span></div>
+                  <div class="radiodiv" id="radiodiv3"><input type="radio" id="opt_2" class="option" name="organism" value="Dogs"><span>Dogs</span></div>
+                  <div class="radiodiv" id="radiodiv4"><input type="radio" id="opt_3" class="option" name="organism" value="Mice"><span>Mice</span></div>
+               </div>
+               <div class="Trait">
+                 <div class="Tratitle">Trait</div>
+                  <div class="Traitxt">Seed Color</div>
+               </div>
+               <div class="allTxt">Alleles</div>
+               <div class="alltxt1">B yellow</div>
+               <div class="alltxt2">b green</div>
+            </div>
+            <div class="parentDiv">
+			<div class="popup">
+			 <div style="position: relative;text-align:center;top:23px"><b>Good Work!</b></div>
+			 <div style="position: relative;top: 24px;text-align: center;">You filled in the Punnett Square
+correctly. Select Reset to try
+another puzzle.</div>
+		<img class="okBtn" src="assets/images/template/close.png"/> 
+			</div>
+               <!--  <img src="assets/images/activity/Capture1.PNG"/> -->
+               <div class="parentTit">Parents</div>
+               <div class="imgContains">
+			   <div class="dragImg1" style="position:absolute;width:151px;height:50px; display: none;">
+			   <img id="dragImg1" class="dragImg" data-ans="" src="images/bean1.png"/>
+               <div  class="textdrag1 texxt">Yellow seeds</div>
+			   </div>
+			     </div>
+               <div class="imgContains1"> <div class="dragImg1" style="position:absolute;width:153px;height:50px; display: none;">
+			   <img id="dragImg2" class="dragImg" data-ans="" src="images/bean2.png"/>
+               <div  class="textdrag2 texxt">Green seeds</div>
+			   </div>
+			   </div>
+               <div class="txtdrag" id="txtdrag1"><span class="txt">B</span></div>
+               <div class="txtdrag" id="txtdrag2"><span class="txt">b</span></div>
+               <div class="txtdrag" id="txtdrag3"><span class="txt">BB</div>
+               <div class="txtdrag" id="txtdrag4"><span class="txt">Bb</span></div>
+               <div class="txtdrag" id="txtdrag5"><span class="txt">bb</span></div>
+               <div class="textani" id="txtdrag_1">bb</div>
+               <div class="textani" id="txtdrag_2">bb</div>
+               <div class="textani" id="txtdrag_3">bb</div>
+               <div class="textani" id="txtdrag_4">bb</div>
+               <div class="textani" id="txtdrag_5">bb</div>
+               <div class="textani" id="txtdrag_6">bb</div>
+               <div class="textani" id="txtdrag_7">bb</div>
+               <div class="textani" id="txtdrag_8">bb</div>
+               <!-- <img class="dragImgani" data-ans="" id="imgDrag_1" src="images/bean2.png"/>
+               <img class="dragImgani" data-ans="" id="imgDrag_2" src="images/bean1.png"/>
+               <img class="dragImgani" data-ans="" id="imgDrag_3" src="images/bean2.png"/>
+               <img class="dragImgani" data-ans="" id="imgDrag_4" src="images/bean1.png"/>
+               <img class="dragImgani" data-ans="" id="imgDrag_5" src="images/bean2.png"/>
+               <img class="dragImgani" data-ans="" id="imgDrag_6" src="images/bean1.png"/> -->
+			   
+			      <div class="dragImgani" data-ans="" id="imgDrag_1"><img src="assets/images/activity/bean2.png"/><div class="texxt1">Green seeds</div></div>
+               <div class="dragImgani" data-ans="" id="imgDrag_2"><img src="assets/images/activity/bean2.png"/><div class="texxt1">Green seeds</div></div>
+               <div class="dragImgani" data-ans="" id="imgDrag_3" ><img src="assets/images/activity/bean2.png"/><div class="texxt1">Green seeds</div></div>
+			    <div class="dragImgani" data-ans="" id="imgDrag_4" ><img src="assets/images/activity/bean2.png"/><div class="texxt1">Green seeds</div></div>
+				 <div class="dragImgani" data-ans="" id="imgDrag_5" ><img src="assets/images/activity/bean2.png"/><div class="texxt1">Green seeds</div></div>
+				 <div class="dragImgani" data-ans="" id="imgDrag_6" ><img src="assets/images/activity/bean2.png"/><div class="texxt1">Green seeds</div></div>
+				<!-- <div id="wrong1" class="wrong" style="font-size:30px;color:red;position: absolute;left: 300px;top: 238px;">X</div>
+					<div id="wrong2" class="wrong" style="font-size:30px;color:red;position: absolute;left: 300px;top: 369px;">X</div> -->
+				<!-- <div id="wrong4" class="wrong" style="font-size:30px;color:red;position: absolute;left: 599px;top: 143px;">X</div> -->
+				<!-- <div id="wrong6" class="wrong" style="font-size:30px;color:red;position: absolute;left: 599px;top: 276px;">X</div>
+				<div id="wrong7" class="wrong" style="font-size:30px;color:red;position: absolute;left: 421px;top: 407px;">X</div>
+				<div id="wrong8" class="wrong" style="font-size:30px;color:red;position: absolute;left: 599px;top: 407px;">X</div> -->
+				<div id="wrong3" class="wrong" style="font-size:30px;color:red;position: absolute;left: 421px;top: 143px;">X</div>
+				<div id="wrong4" class="wrong1" style="font-size:30px;color:red;position: absolute;left: 599px;top: 143px;">X</div>
+				<div id="wrong5" class="wrong" style="font-size:30px;color:red;position: absolute;left: 421px;top: 276px;">X</div>
+               <div class="DropContainer">
+			   
+                  <div class="box1">
+				  
+                    <div class="imgdrop" data-ans="" data-img="" id="imgdrop1">
+						<img id="txt_3" class="dragImg3" data-ans="" src="images/bean2.png"/>
+						<div id="txt_4" class="textimg3">Green seeds</div>
+						
+						<img id="txt_3_" class="dragImg5" data-ans="" src="images/bean1.png"/>
+						<div id="txt_4_" class="textimg1">Yellow seeds</div>
+						<!-- <span class="group1" style="display:none" data-ans="1">1</span> -->
+					</div>
+                     <div class="dropdown droptxt group1" data-ans="" data-id="0,2" data-drop="5" id="dropdown1"><span id="txt_2" class="txt1">BB</span><span id="txt_21" class="txt2">BB</span></div>
+                     <!-- <div class="dropdown droptxt group1" data-ans="" data-id="0,2" data-drop="5" id="dropdown5"><span id="txt_21" class="txt2">BB</span></div> -->
+					 <span class="wrong" style="font-size:40px;color:red;position: absolute;margin:0 auto;left:83px;right:0px;top:17px">X</span>
+					  <img id="dot1" class="dot" src="images/dashed1.png" />
+                  </div>
+                  <div class="box2">
+				  
+                    <div class="imgdrop" data-ans="" data-img="" id="imgdrop2">
+						<img id="txt_5_" class="dragImg3" data-ans="" src="images/bean1.png"/>
+						<div id="txt_6_" class="textimg">Yellow seeds</div>
+						
+						<img class="dragImg6" data-ans="" src="images/bean2.png"/>
+						<div class="textimg6">Green seeds</div>
+					</div>
+						<div class="dropdown droptxt" data-ans="" data-drag="" data-drop="6" data-id="0,3" id="dropdown2"><span id ="pstxt1" class="txt1">Bb</span></div>
+						<!-- <div class="dropdown droptxt" data-ans="" data-drag="" data-drop="6" data-id="0,3" id="dropdown6"><span class="txt2"><p class="pstxt">Bb</p></span></div> -->
+					  <span class="wrong1" style="font-size:40px;color:red;position: absolute;margin:0 auto;left:83px;right:0px;top:17px">X</span>
+					  <img id="dot2" class="dot" src="images/dashed1.png" />
+                  </div>
+                  <div class="box3">
+                    <div class="imgdrop" data-ans="" data-img="" id="imgdrop3">
+						<img class="dragImg3" data-ans="" src="images/bean1.png"/>
+						<div class="textimg">Yellow seeds</div>
+					</div>
+						<div class="dropdown droptxt" data-ans="" data-drag="" data-drop="7" data-id="1,2" id="dropdown3"><span id ="pstxt2" class="txt1">Bb</span></div>
+						<!-- <div class="dropdown droptxt" data-ans="" data-drag="" data-drop="7" data-id="1,2" id="dropdown7"><span class="txt2"><p class="pstxt">Bb</p></span></div> -->
+					  <!-- <span class="wrong" style="font-size:40px;color:red;position: absolute;margin:0 auto;left:83px;right:0px;top:17px">X</span> -->
+					  <img id="dot3" class="dot"  src="images/dashed1.png"/>
+                  </div>
+                  <div class="box4">
+                     <div class="imgdrop" data-ans="" data-img="" id="imgdrop4">
+						<img id="txt_9" class="dragImg3" data-ans="" src="images/bean1.png"/>
+						<div id="txt_10" class="textimg3">Yellow seeds</div>
+						
+						<img id="txt_9_" class="dragImg5" data-ans="" src="images/bean2.png"/>
+						<div id="txt_10_" class="textimg1">Green seeds</div>
+					</div>
+						<div class="dropdown droptxt" data-ans="" data-drag=""  data-drop="8" data-id="1,3" id="dropdown4"><span class="txt1">Bb</span><span class="txt2">bb</span></div>
+						<!-- <div class="dropdown droptxt" data-ans="" data-drag=""  data-drop="8" data-id="1,3" id="dropdown8"><span class="txt2">Bb</span></div> -->
+					  <!-- <span class="wrong" style="font-size:40px;color:red;position: absolute;margin:0 auto;left:83px;right:0px;top:17px">X</span> -->
+					  <img id="dot4" class="dot" src="images/dashed1.png"/>
+                  </div>
+                  <div class="dropleft droptxt dropmf group1" data-ans=""  data-drag="" data-drop="1" id="dropleft1"><span  class="txt1">B</span><span  class="txt2">B</span></div>
+                  <div class="dropleft droptxt dropmf" data-ans="" data-drag=""  data-drop="2" id="dropleft2"><span class="txt1">B</span><span class="txt2">b</span></div>
+                  <div class="droptop droptxt dropmf group1"  data-ans="" data-drag="" data-drop="3" id="droptop1"><span id="txt_1" class="txt1">B</span><span id="txt_11" class="txt2">B</span></div>
+                  <div class="droptop droptxt dropmf"  data-ans="" data-drag="" data-drop="4" id="droptop2"><span class="txt1">b</span><span class="txt2_2" style="display: none;">B</span></div>
+                  <div class="fP">Female parent</div>
+                  <div class="mP">Male parent</div>
+               </div>
+               <!-- <div class="rfs">Results of crosss</div> -->
+               <div>
+				<div class="imgdrop imgdrop1" data-ans="" data-img="" id="imgdrop5" style="display: none;"></div>
+					<img id="dot5" class="dot" src="images/dashed1.png" style="display: none;"/>
+					<img id="txt_5" class="dragImg4" data-ans="" src="images/bean2.png"/>
+					<div id="txt_6" class="textimg4">Green seeds</div>
+			    <span class="wrong1" style=" font-size: 40px;  color: red; position: relative;  margin: 0px auto; left: 512px;    right: 0px; top: -304px;">X</span>
+				</div>
+               <div>
+			   <div class="imgdrop imgdrop1" data-ans="" data-img="" id="imgdrop6" style="display: none;"></div>
+			   <img id="dot6" class="dot" src="images/dashed1.png" style="display: none;"/>
+					<img id="txt_7" class="dragImg4" data-ans="" src="images/bean1.png"/>
+					<div id="txt_8" class="textimg5">Yellow seeds</div>
+			    <!-- <span class="wrong" style="font-size:40px;color:red;position: absolute;margin:0 auto;left:279px;right:0px;top:295px">X</span> -->
+				</div>
+               <div class="topParent">
+				<div class="cross">Cross</div>
+                  <div class="leftDiv">
+                     <div class="fpImg"><img id="fpImg"src="images/bean1.png"/></div>
+                     <div class="ftxt">Female</div>
+                     <div class="fselect">Select</div>
+                     <ul class="leftSelect" id="fselect">
+                        <li class="val">Homozygous dominant</li>
+                        <li class="val">Heterozygous</li>
+                        <li class="val">Homozygous recessive</li>
+                     </ul>
+                  </div>
+                  
+                  <div class="drpdwntArrw1 drp" id="drpdwntArrw1"></div>
+                  <div class="drpdwntArrw2 drp" id="drpdwntArrw2"></div>
+                  <div class="rightDiv">
+                     <div class="mtxt">Male</div>
+                     <div class="mpImg"><img id="mpImg"src="images/bean2.png"/></div>
+                     <div class="mselect">Select</div>
+                     <ul class="rightSelect" id="mselect">
+                        <li class="val">Homozygous dominant</li>
+                        <li class="val">Heterozygous</li>
+                        <li class="val">Homozygous recessive</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="BtnContainer">
+               <div class="bnt" id="resetbtn">Reset</div>
+               <div class="bnt" id="checkbtn">Check Answer</div>
+               <div class="bnt" id="redobtn">Redo</div>
+               <div class="bnt" id="clearbtn">Clear All</div>
+            </div>
+	</div>
+</body>
+</html>
